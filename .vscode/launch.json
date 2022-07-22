@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Start as if by Squid",
+            "type": "python",
+            "request": "launch",
+            "program": "auth.py",
+            "args": ["hash_db"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Add user",
+            "type": "python",
+            "request": "launch",
+            "program": "auth.py",
+            "args": ["hash_db", "--user=testuser", "--password=h$KJhafroq!M7fpaH"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },        
+        {
+            "name": "Python: Help",
+            "type": "python",
+            "request": "launch",
+            "program": "auth.py",
+            "args": ["-h"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
