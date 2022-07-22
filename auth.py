@@ -1,6 +1,7 @@
 #!/usr/bin/python
  
 """ 
+Github: https://github.com/Ivesvdf/Python-Squid-Auth
 Authentication module for usage with Squid (proxy). Can be used to add new users as well. 
 """
 import hashlib
